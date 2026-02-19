@@ -15,3 +15,23 @@
         
 //     }
 // };
+
+
+
+
+
+// class Solution {
+// public:
+//     vector<int> getSneakyNumbers(vector<int>& nums) {
+//         int count=0;
+//         vector<int>arr;
+//         vector<int>temp(100,0);
+//         for(int i=0;i<nums.size();i++){
+//            temp[nums[i]]++;
+//         }
+//         for(int i=0;i<temp.size();i++){
+//             if(temp[i]>1)arr.push_back(i);
+//         }
+//         return arr;
+//     }
+// };
