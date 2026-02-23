@@ -11,7 +11,6 @@ int main() {
        cin>>x>>y;
         if ((x - 2*y) % 3 == 0 && x >= 2*y && x >= -4*y)cout << "YES" << endl;
         else cout << "NO" << endl;
-
         
     }
     return 0;
